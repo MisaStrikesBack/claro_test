@@ -175,9 +175,16 @@ para esto escribimos el comando:
 
 `python3 -m venv venv`
 
+## Inicializando el ambiente virtual
+Para inicializar el ambiente de desarrollo utilizamos el comando:
+
+`source venv/bin/activate`
+
 ## Instalación de dependencias
 para instalar las dependencias utilizamos pip y el archivo requirements.txt donde están listadas todas las dependencias del proyecto.
+
 En la consola escribimos:
+
 `pip install -r requirements.txt`
 
 ## Arrancando el servidor de desarrollo
