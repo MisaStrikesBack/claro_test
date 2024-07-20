@@ -169,8 +169,6 @@ Una vez que tengamos el código del proyecto tenemos que crear un ambiente virtu
 
 Desde el directorio raíz del proyecto, primero se debe inicializar el ambiente virtual.
 
-Si seguimos en el 
-
 para esto escribimos el comando:
 
 `python3 -m venv venv`
