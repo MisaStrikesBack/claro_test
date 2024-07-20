@@ -1,8 +1,12 @@
 # Prueba técnica para Claro shop
 
-La prueba técnica consiste en un api muy sencillo en el cual se define un solo endpoint con dos funcionalidades basadas en los parámetros de la petición
+La prueba técnica consiste en un api muy sencillo en el cual se define un solo endpoint con dos funcionalidades basadas en los parámetros de la petición.
 
-El proyecto cuenta con pruebas unitarias implementadas las cuales se pueden correr desde una consola.
+La funcionalidad principal se localiza en el archivo **app/prueba.py**, ahí está codificada la función que consume el servicio de pokeapi y regresa el payload al cliente.
+
+De igual manera el proyecto cuenta con un archivo de constantes **utils/constants.py** en caso de que hubiera una actualización en el url de pokeapi solamente sería necesario actualizar este archivo.
+
+El proyecto cuenta también con pruebas unitarias implementadas las cuales se localizan en el archivo **tests/test_pokemon_endpoint.py** se pueden correr desde una consola.
 
 Así mismo el código cumple con los siguientes estándares de estilo para asegurar que sea limpio y escalable:
 
@@ -127,6 +131,8 @@ En caso de que el pokemon id sea válido, recibiremos un json con la info del po
       }
     },
     ...
+  ]
+  ...
 }
 ```
 
